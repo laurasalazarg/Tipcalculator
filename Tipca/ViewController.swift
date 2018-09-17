@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func onTap(_ sender: Any) {
+    view.endEditing(true)
+    }
+    
+    @IBAction func calculateTip(_ sender: Any) {
+    }
+    
+    
 }
 
